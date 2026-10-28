@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Event</title>
+    <link rel="stylesheet" href="clubeve.css">
+</head>
+<body>
+    <header>
+        <div class="upperbox">
+        <h1>Coding Club</h1>
+        <p>Learn build And Share...</p>
+        </div>
+        <h3>Upcoming Events</h3>
+    </header>
+    <main>
+        <div class="table">
+        <table border="1">
+           <caption>Club Events</caption>
+           <thead>
+           <th>Event</th>
+           <th>Date</th>
+           <th>Venue</th>
+           </thead>
+           <tr>
+            <td>
+                HTML Workshop
+            </td>
+            <td>
+                12 Nov.
+            </td>
+            <td>
+                Lab 1
+            </td>
+           </tr>
+           
+            <tr>
+            <td>
+                Hackathon
+            </td>
+            <td>
+                20 Nov.
+            </td>
+            <td>
+                Seminar Hall 
+            </td>
+           </tr>
+           <tr>
+            <td colspan="3" id="lastrow">
+                Total Events: 2
+            </td>
+           </tr>
+           </thead>
+        </table>
+        </div>
+    </main>
+    <section>
+        <form action="">
+            <div class="form">
+                <h2>Register</h2>
+            
+            <label for="name">
+                Name: <input type="text"> 
+            </label>
+            <br><br>
+            <label for="email">
+                Email: <input type="email">
+            </label>
+            <br><br>
+            <label for="password">
+                Password: <input type="password">
+            </label>
+            <br><br>
+            <label for="dob">
+                DOB: <input type="date">
+            </label>
+            <br><br>
+            <label for="number">
+                Mobile No. : <input type="tel">
+            </label>
+            <br><br>
+            <label for="gender">
+                Gender: Male<input type="radio" id="male" name="gender" value="male">
+                Female<input type="radio" id="female" name="gender" value="female">
+            </label>
+            <br><br>
+            <label for="interest">
+                Interests: Web<input type="checkbox">
+                DSA <input type="checkbox">
+            </label>
+            <br><br>
+            <label for="branch">Branch</label>
+            <select name="branch" id="branch">
+                <option value="b.tech">B.tech</option>
+                <option value="bca">BCA</option>
+            </select>
+        </form>
+    </div>
+    </section>
+</body>
+</html>
